@@ -1,0 +1,126 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/back2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.rescont {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 1080px;
+    min-width: 680px;
+    max-height: 580px;
+    min-height: 480px;
+    margin-top: -100px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    min-width: 600px;
+    max-height: 500px;
+    min-height: 400px;
+}
+
+.container2 {
+    border-radius: 10px;
+    background-color: rgb(94, 212, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gameboard {
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: black;
+}
+
+.cell {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(94, 212, 248);
+    height: 90px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mark {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(94, 212, 248);
+    height: 90px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+}
+
+.butt {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(94, 212, 248);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#reset {
+    margin-top: -20px;
+}
+
+.scoreB {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 50px;
+    min-height: 30px; 
+}
+
+.win {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
